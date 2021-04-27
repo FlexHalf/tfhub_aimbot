@@ -7,7 +7,7 @@ import cv2
 import math
 import time
 
-detector = hub.load("https://tfhub.dev/tensorflow/centernet/resnet50v1_fpn_512x512/1")
+detector = hub.load("https://tfhub.dev/tensorflow/efficientdet/d0/1")
 size_scale = 3
 
 while True:
